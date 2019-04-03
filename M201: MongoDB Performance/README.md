@@ -1,6 +1,6 @@
 # M201: MongoDB Performance
 
-## Learn how to optimize the performance of your MongoDB deployment.
+## Learn how to optimize the performance of your MongoDB deployment
 
 > __What You'll Learn__
 >
@@ -18,7 +18,6 @@
 > - Duration: 3 Weeks.
 > - Each week we release new video lectures and assignments.
 > - Your final grade for the course will be comprised of weekly assignments which count for half of your grade and a final exam/project which counts for the other half of your grade.
-
 
 > __Agenda__
 > - Chapter 1: Introduction
