@@ -1,0 +1,68 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -L ./index.js",
+    "test": "jest --passWithNoTests",
+    "test:watch": "jest --passWithNoTests --watch",
+    "changestream:update": "node test/lessons/change-updates.js",
+    "changestream:insert": "node test/lessons/change-insert.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint --fix",
+      "npm test",
+      "git add"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "eslint": "^5.14.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-config-react-app": "^3.0.7",
+    "eslint-plugin-flowtype": "^3.4.2",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.8.2",
+    "express": "^4.16.3",
+    "faker": "^4.1.0",
+    "jsonwebtoken": "^8.3.0",
+    "mocha": "^5.2.0",
+    "mongodb": "^3.1.6",
+    "morgan": "^1.9.1",
+    "prettier": "^1.14.3",
+    "sinon": "^7.2.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/register": "^7.0.0",
+    "@babel/runtime": "^7.3.1",
+    "concurrently": "^4.1.0",
+    "husky": "^1.0.0",
+    "jest": "^24.1.0",
+    "jest-cli": "^24.1.0",
+    "jest-express": "^1.6.0",
+    "lint-staged": "^8.1.4",
+    "nodemon": "^1.17.5"
+  }
+}
