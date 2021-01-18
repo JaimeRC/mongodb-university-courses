@@ -20,9 +20,10 @@
 > - Your final grade for the course will be comprised of weekly assignments which count for half of your grade and a final exam/project which counts for the other half of your grade.
 
 > __Agenda__
-> - Chapter 1: Introduction
-> - Chapter 2: MongoDB Indexes
-> - Chapter 3: Index Operations
-> - Chapter 4: CRUD Optimization
-> - Chapter 5: Performance on Clusters
-> - Final Exam
+>
+> - [Chapter 1: Introduction](./Chapter%201:%20Introduction%20to%20MongoDB%20Performance/README.md)
+> - [Chapter 2: MongoDB Indexes](./Chapter%202:%20MongoDB%20Index/README.md)
+> - [Chapter 3: Index Operations](./Chapter%203:%20Index Operations/README.md)
+> - [Chapter 4: CRUD Optimization](./Chapter%204:%20CRUD%20Optimization/README.md)
+> - [Chapter 5: Performance on Clusters](./Chapter%205:%20Performance%20on%20Clusters/README.md)
+> - [Final Exam](./Final%20Exam/README.md)
