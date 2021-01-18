@@ -24,8 +24,8 @@ Your final grade for the course will be comprised of weekly assignments.
 
 >__Agenda__
 >
->- Chapter 1: Introduction to Data Modeling
->- Chapter 2: Relationships
->- Chapter 3: Patterns (Part 1)
->- Chapter 4: Patterns (Part 2)
->- Chapter 5: Conclusion
+>- [Chapter 1: Introduction to Data Modeling](./Chapter%201:%20Introduction%20to%20Data%20Modeling/README.md)
+>- [Chapter 2: Relationships](./Chapter%202:%20Relationship/README.md)
+>- [Chapter 3: Patterns (Part 1)](./Chapter%204:%20Patterns%20(Part%201)/README.md)
+>- [Chapter 4: Patterns (Part 2)](./Chapter%204:%20Patterns%20(Part%202)/README.md)
+>- [Chapter 5: Conclusion](./Chapter%205:%20Conclusion/README.md)
